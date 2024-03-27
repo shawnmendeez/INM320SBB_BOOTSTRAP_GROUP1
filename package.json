@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "scss --watch src/scss:public/assets/css",
     "start": "lite-server --baseDir=\"public\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +15,6 @@
     "lite-server": "2.3"
   },
   "dependencies": {
-    "bootstrap": "^5.3.3",
-    "scss": "^0.2.4"
+    "bootstrap": "^5.3.3"
   }
 }
